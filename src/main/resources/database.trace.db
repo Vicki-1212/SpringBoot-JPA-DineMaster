@@ -1,0 +1,3 @@
+2024-04-02 16:15:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RESTAURANT" already exists; SQL statement:
+create table restaurant( id INT PRIMARY KEY AUTO_INCREMENT, name varchar(255), address varchar(255), cuisineType varchar(255), rating INT ) [42101-214]
